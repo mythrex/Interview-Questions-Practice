@@ -38,7 +38,7 @@ else:
 
 ## Code
 
-```
+```python
 class Solution:
     # @param A : string
     # @return an integer
