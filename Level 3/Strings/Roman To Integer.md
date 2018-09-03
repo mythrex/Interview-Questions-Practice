@@ -27,12 +27,12 @@ Take an example of XVI and XIV
 ```
 XVI = 10 + 5 + 1
 XIV = 10 -1 + 5
-Whenever **val(A[i]) >= val(A[i+1])**
-    **res = res + val(A[i])**
+Whenever val(A[i]) >= val(A[i+1])
+    res = res + val(A[i])
     i += 1
 
 else:
-    ** res = res - val[A[i]] + val[i+1]**
+     res = res - val[A[i]] + val[i+1]
     i += 2
 ```
 
