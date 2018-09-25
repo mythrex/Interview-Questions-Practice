@@ -130,9 +130,11 @@ class Solution:
                 if not lnum or lnum == B - 1:
                     chIDX += (B - 1) * 2
                 elif not trian:
+                    # when train is moving in downward direction
                     chIDX += (B - 1 - lnum) *2
                 else:
                     chIDX += lnum * 2
+                # reverse the direction
                 trian = not trian
                 print(lnum, chIDX, chIDX < len(A))
         return newStr
