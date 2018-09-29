@@ -62,7 +62,7 @@ Consider any random number r.
     If r*r > x, S < r.
 ```
 
-Maybe try to run a binary search for S.
+Maybe try to run a binary earch for S.
 
 ## Code 2 using Binary Search
 
