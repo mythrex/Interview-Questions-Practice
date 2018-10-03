@@ -73,6 +73,7 @@ else isPossible = true.
 def isPossible(time, l, k):
     painter = 1
     time_taken = 0
+    maxi = max(l)
     if maxi > time:
         return False
     for i in l:
@@ -95,15 +96,10 @@ class Solution:
         sol = float('inf')
         while low <= high:
             mid = (low + high) // 2
-            print(low, high, mid)
             if isPossible(mid, C, A):
                 high = mid - 1
                 sol = min(sol, mid)
             else:
                 low = mid + 1
         return (sol*B) % 10000003
-<<<<<<< HEAD
-=======
-
->>>>>>> 2fb8a34698c21a19f21e8d7765ade0e9cf1dce11
 ```
