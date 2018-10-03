@@ -102,4 +102,8 @@ class Solution:
             else:
                 low = mid + 1
         return (sol*B) % 10000003
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fb8a34698c21a19f21e8d7765ade0e9cf1dce11
 ```
